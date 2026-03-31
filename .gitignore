@@ -1,0 +1,68 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/venv/
+backend/.venv/
+venv/
+env/
+.env
+
+# Python (Compiled/Residue)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+.cache
+
+# Next.js / Frontend
+.next/
+frontend/.next/
+out/
+.pnp
+.pnp.js
+
+# Production
+build/
+dist/
+
+# Env & Sensitive Data
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env
+*.pem
+
+# IDEs & System
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project Specific (AI platform residue, etc.)
+frontend/public/
+frontend/.eslintrc.json
+frontend/README.md
+frontend/next-env.d.ts
+frontend/.gitignore
